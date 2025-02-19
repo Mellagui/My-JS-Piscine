@@ -1,6 +1,6 @@
-Quests       nbrs    time        inWork      completed
+Quests       nbrs    time      completed    project 
 
-quest 1:     20      2 days
+quest 1:     20      2 days    8 / 20       
 quest 2:     17      2 days
 quest 3:     8       1 days
 

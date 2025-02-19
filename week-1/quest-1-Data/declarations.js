@@ -1,13 +1,40 @@
-import { str, num, bool, undef } from "./primitives.js";
+const escapeStr = '`\\/"\'';
+const arr = [4,'2'];
+Object.freeze(arr);
 
-const escapeStr = "`,\\,/,\",'"
-const arr = [4, undef, '2'];
 const obj = {
-    str,
-    num,
-    bool,
+    str: "string",
+    num: 0,
+    bool: false,
+    undef: undefined,
+}
+Object.freeze(obj);
+
+const nested = {
+    arr: [4,undefined,'2'],
+    obj: {
+        str: "string",
+        num: 0,
+        bool: false,
+    },
 };
-const nested = {arr, obj}
+
+Object.freeze(nested);
+Object.freeze(nested.obj);
+Object.freeze(nested.arr);
+
+
+
+// import { str, num, bool, undef } from "./primitives.js";
+
+// const escapeStr = "`,\\,/,\",'"
+// const arr = [4, undef, '2'];
+// const obj = {
+//     str,
+//     num,
+//     bool,
+// };
+// const nested = {arr, obj}
 
 // console.log(escapeStr)
 // console.log(nested)

@@ -1,7 +1,12 @@
-export const str = 'String'
-export const num = 0
-export const bool = false
-export const undef = undefined
+const str = "string";
+const num = 0;
+const bool = false;
+const undef = undefined;
+
+// export const str = 'String'
+// export const num = 0
+// export const bool = false
+// export const undef = undefined
 
 // console.log(str,'\n',num,'\n',bool,'\n',undef)
 
