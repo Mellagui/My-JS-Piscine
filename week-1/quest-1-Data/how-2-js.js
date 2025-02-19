@@ -1,3 +1,7 @@
+console.log('Hello World')
+
+///////////////////////////////////////////////////////////////////////
+
 // Let's make a hello world. First we create the JavaScript file
 
 // $ echo "console.log('Hello World')" > how-2-js.js
@@ -11,6 +15,3 @@
 // get PID wait command [ ps ] = get all ports active in the device
 
 // kill any server whit [ kill <PID> ] = kill 8800
-
-
-console.log('Hello World')
