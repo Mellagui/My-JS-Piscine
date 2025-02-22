@@ -1,23 +1,23 @@
-Quests       nbrs    time      completed    project 
+Quests       nbrs    required     time      completed    project 
 
-quest 1:     20      2 days    12 / 20       method-man
-quest 2:     17      2 days    0  / 17
-quest 3:     8       1 days    0  / 8
+quest 1:     20      16           3 days    16 / 20      is.js
+quest 2:     17                   2 days    0  / 17
+quest 3:     8                    1 days    0  / 8
 
 raid 1:
 
 
-quest 4:     9       1 days    0  / 9
-quest 5:     13      2 days    0  / 13
-quest 6:     10      2 days    0  / 10
+quest 4:     9                    1 days    0  / 9
+quest 5:     13                   2 days    0  / 13
+quest 6:     10                   2 days    0  / 10
 
 raid 2:
 
 
-quest 7:     12      2 days    0  / 12
-quest 8:     9       3 days    0  / 9
+quest 7:     12                   2 days    0  / 12
+quest 8:     9                    3 days    0  / 9
 
 raid 3:
 
 
-quest 9:     12      1 days    0  / 12
+quest 9:     12                   1 days    0  / 12

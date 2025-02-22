@@ -1,9 +1,12 @@
 
 const indexOf = (arr,val) => {
-    return arr.findIndex(element => element === val) !== -1? arr.findIndex(element => element === val): -1;
+    return arr.findIndex((arr) => arr === val);
+    // return arr.findIndex(element => element === val) !== -1? arr.findIndex(element => element === val): -1;
 }
 
 const lastIndexOf = (arr,val) => {
+    // return arr.findLastIndex((arr) => arr === val);
+    
     for (let i = arr.length-1; i >= 0; i--) {
         if (arr[i] === val) return i
     }
@@ -15,8 +18,10 @@ const includes = (arr,val) => {
 }
 
 const arr = ['hello', 'world', 'hi', 'mellagui', 'hello', 'world'];
-const val = 'worlld';
+const val = 'world';
+
+// console.log(Array(2).fill([...val]))
 
 console.log(indexOf(arr, val));
 console.log(lastIndexOf(arr, val));
-console.log(includes(arr, val));
+// console.log(includes(arr, val));

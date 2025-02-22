@@ -1,4 +1,4 @@
-import { repeat } from "./repeat.js";
+// import { repeat } from "./repeat.js";
 
 const multiply = (a, b) => {
     return (a === 0 || b === 0) && (a < 0 !== b < 0)? -0: (a === 0 || b === 0)? 0: (a === 1)? b: (b === 1)? a: multiplyAlgo(a,b);
@@ -72,7 +72,7 @@ const modulo = (a,b) => { // a % b
     return b === 0? 'NaN': a === b || (a === 0 && b !== 0)? 0: moduloAlgo(a,b);
 }
 
-console.log(divide(3,1)); // nan
+console.log(modulo(34,78)); // nan
 console.log(divide(1,3)); // 1
 console.log(divide(1,1)); // NaN
 console.log(divide(-3,1)); // nan
@@ -80,18 +80,18 @@ console.log(divide(1,-3)); // 0
 console.log(divide(-3,2)); // -1
 console.log(divide(3,-2)); // 1
 console.log(divide(-3,-2)); // -1
-console.log(divide(8,80)); // 8
+console.log(divide(20,80)); // 8
 
 console.log('rrr')
-console.log((3/1)); // NaN
-console.log((1/3)); // 1
-console.log((1/1)); // NaN
-console.log((-3/1)); // NaN
-console.log((1/-3)); // 1
+console.log((34%78)); // NaN
+console.log((0/3)); // 0
+console.log((0/0)); // NaN
+console.log((-3/0)); // NaN
+console.log((0/-3)); // 0
 console.log((-3/2)); // -0
 console.log((3/-2)); // 0
 console.log((-3/-2)); // -0
-console.log((8/80)); // 0
+console.log((8/80)); // 0.
 // console.log((5/3)); // 3
 // console.log(modulo(20,3)); // 3
 
