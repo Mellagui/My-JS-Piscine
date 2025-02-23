@@ -1,0 +1,2 @@
+const get = () => {}
+const path = () => {}
