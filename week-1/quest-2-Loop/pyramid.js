@@ -7,7 +7,7 @@ const pyramid = (str, nbr) => {
             x++
             continue
         }
-        res.push(Array(nbr-x).fill(' ').join('') + Array(x-1).fill('*').join('') + str + Array(x-1).fill('*').join(''))
+        res.push(Array(nbr-x).fill(' ').join('') + Array(x-1).fill(str).join('') + str + Array(x-1).fill(str).join(''))
         x++
     }
     return res.join('\n')
