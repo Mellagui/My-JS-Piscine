@@ -7,7 +7,7 @@ const triangle = (str, nbr) => {
             x++
             continue
         }
-        res.push(str + Array(x-1).fill('*').join(''))
+        res.push(str + Array(x-1).fill(str).join(''))
         x++
     }
     return res.join('\n')
