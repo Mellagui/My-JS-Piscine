@@ -1,23 +1,23 @@
-Quests       nbrs    required     time      completed    project 
+Quests       Nbrs    Required     Time      Completed    Project        Study
 
-quest 1:     20      16           3 days    16 / 20      is.js
-quest 2:     17                   2 days    0  / 17
-quest 3:     8                    1 days    0  / 8
+quest 1:     20      16           2 days    16 / 20      is             basic-syntax
+quest 2:     17      14           2 days    14 / 17      flat           loop-methods
+quest 3:     8       5            1 days    7  / 8       valid-ip       regular-expression
 
-raid 1:
-
-
-quest 4:     9                    1 days    0  / 9
-quest 5:     13                   2 days    0  / 13
-quest 6:     10                   2 days    0  / 10
-
-raid 2:
+raid 1:      1                                           cross-word     recursion-backtraking
 
 
-quest 7:     12                   2 days    0  / 12
-quest 8:     9                    3 days    0  / 9
+quest 4:     9                    1 days    !  / 9                      time-manipulation
+quest 5:     13                   2 days    0  / 13                     
+quest 6:     10                   2 days    0  / 10                     dom-manipulation
 
-raid 3:
+raid 2:      1                                           sortable       data-manipulation-from-ip
 
 
-quest 9:     12                   1 days    0  / 12
+quest 7:     12                   2 days    0  / 12                     objects-routine
+quest 8:     9                    3 days    0  / 9                      asynchonicity-application
+
+raid 3:      1                                           clonernews
+
+
+quest 9:     12                   1 days    0  / 12                     node.js-file-manipulation-and-api
