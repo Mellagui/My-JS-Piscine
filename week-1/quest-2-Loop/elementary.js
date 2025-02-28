@@ -109,4 +109,4 @@ console.log((8/80)); // 0.
 // foreach == for range any data and make modifications without return any value
 // map == for range any data and make modifications on copie of data with return copies
 
-// reduce == 
+// reduce ==

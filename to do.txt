@@ -7,8 +7,8 @@ quest 3:     8       5            1 days    7  / 8       valid-ip       regular-
 raid 1:      1                                           cross-word     recursion-backtraking
 
 
-quest 4:     9                    1 days    !  / 9                      time-manipulation
-quest 5:     13                   2 days    0  / 13                     
+quest 4:     9                    1 days    2  / 9                      time-manipulation
+quest 5:     13                   2 days    0  / 13                     map-filter-foreach-methods
 quest 6:     10                   2 days    0  / 10                     dom-manipulation
 
 raid 2:      1                                           sortable       data-manipulation-from-ip
