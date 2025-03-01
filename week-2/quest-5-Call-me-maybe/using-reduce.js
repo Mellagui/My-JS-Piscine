@@ -6,8 +6,6 @@ const adder = (arr) => arr.reduce((acc, val) => acc + val)
 const sumOrMul = (arr, initVal = 0) => {
     // let init = init
     return arr.reduce((acc, val) => {
-        // if (acc == 0)
-        // console.log(acc)
         if (val % 2 == 0) {
             return acc * val
         }

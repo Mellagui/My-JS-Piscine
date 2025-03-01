@@ -15,9 +15,8 @@ const noLongWords = (arr) => {
 
 }
 
+// const arr = []
+// arr.some()
 
-Array
-const arr = []
-arr.some()
 // const arr = ['fixtre', 'oent', 'coinde', 'retial', 'retion'];
 // console.log(noLongWords(arr))
